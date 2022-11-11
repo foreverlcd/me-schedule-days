@@ -1,0 +1,17 @@
+.container {
+  width: 135px;
+  height: 37px;
+  background: #FF8B8B;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+.container_text {
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  text-align: center;
+}
