@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContainerSchedule should render ContainerSchedule color and title component 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "background": "black",
+    }
+  }
+>
+  <h1
+    className="container_text"
+  >
+    ContainerSchedule Title
+  </h1>
+</div>
+`;
+
+exports[`ContainerSchedule should render ContainerSchedule color component 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "background": "black",
+    }
+  }
+>
+  <h1
+    className="container_text"
+  >
+    Programación I
+  </h1>
+</div>
+`;
+
+exports[`ContainerSchedule should render ContainerSchedule title component 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "background": "red",
+    }
+  }
+>
+  <h1
+    className="container_text"
+  >
+    ContainerSchedule Title
+  </h1>
+</div>
+`;
