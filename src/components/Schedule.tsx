@@ -9,14 +9,18 @@ import { ContainerSchedule } from './ContainerSchedule';
 
 export interface Props {
   courses?: DataProps[];
+  backgroundColorSchedule: string;
 }
 
-export const Schedule = ({ courses }: Props) => {
+export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
   const { data } = useSchedule(courses);
 
   return (
     <div className={styles['container']}>
-      <div className={styles['container_schedule']}>
+      <div
+        className={styles['container_schedule']}
+        style={{ backgroundColor: backgroundColorSchedule }}
+      >
         <div className={styles['container_schedule_top']}></div>
         <div className={styles['container_schedule_header']}>
           <div className={styles['container_schedule_header_horario']}>
@@ -40,7 +44,7 @@ export const Schedule = ({ courses }: Props) => {
           ))}
         </div>
         <div className={styles['container_schedule_lineTime']}>
-          {hours.map((daysVal) => (
+          {hours.map(daysVal => (
             <div
               key={daysVal}
               className={
