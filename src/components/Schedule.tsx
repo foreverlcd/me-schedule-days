@@ -9,10 +9,17 @@ import { ContainerSchedule } from './ContainerSchedule';
 
 export interface Props {
   courses?: DataProps[];
-  backgroundColorSchedule: string;
+  backgroundColorSchedule?: string;
+  borderRightSchedule?: boolean;
+  borderBottomSchedule?: boolean;
 }
 
-export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
+export const Schedule = ({
+  courses,
+  backgroundColorSchedule,
+  borderRightSchedule,
+  borderBottomSchedule,
+}: Props) => {
   const { data } = useSchedule(courses);
 
   return (
@@ -52,8 +59,16 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                   ? styles['container_schedule_lineTime_capsEnd']
                   : styles['container_schedule_lineTime_caps']
               }
+              style={{
+                borderBottom: borderBottomSchedule ? '1px solid #D4D4D4' : '',
+              }}
             >
-              <div className={styles['container_schedule_lineTime_caps_text']}>
+              <div
+                className={styles['container_schedule_lineTime_caps_text']}
+                style={{
+                  borderRight: borderRightSchedule ? '1px solid #D4D4D4' : '',
+                }}
+              >
                 <h1
                   className={
                     styles['container_schedule_lineTime_caps_text_hour']
@@ -70,6 +85,11 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                       className={
                         styles['container_schedule_lineTime_caps_mini_course']
                       }
+                      style={{
+                        borderRight: borderRightSchedule
+                          ? '1px solid #D4D4D4'
+                          : '',
+                      }}
                     >
                       {data.map((value, keyIndex) =>
                         value.days.monday.includes(`${daysVal}`) ? (
@@ -87,6 +107,11 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                       className={
                         styles['container_schedule_lineTime_caps_mini_course']
                       }
+                      style={{
+                        borderRight: borderRightSchedule
+                          ? '1px solid #D4D4D4'
+                          : '',
+                      }}
                     >
                       {data.map((value, keyIndex) =>
                         value.days.tuesday.includes(`${daysVal}`) ? (
@@ -104,6 +129,11 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                       className={
                         styles['container_schedule_lineTime_caps_mini_course']
                       }
+                      style={{
+                        borderRight: borderRightSchedule
+                          ? '1px solid #D4D4D4'
+                          : '',
+                      }}
                     >
                       {data.map((value, keyIndex) =>
                         value.days.wednesday.includes(`${daysVal}`) ? (
@@ -121,6 +151,11 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                       className={
                         styles['container_schedule_lineTime_caps_mini_course']
                       }
+                      style={{
+                        borderRight: borderRightSchedule
+                          ? '1px solid #D4D4D4'
+                          : '',
+                      }}
                     >
                       {data.map((value, keyIndex) =>
                         value.days.thursday.includes(`${daysVal}`) ? (
@@ -138,6 +173,11 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                       className={
                         styles['container_schedule_lineTime_caps_mini_course']
                       }
+                      style={{
+                        borderRight: borderRightSchedule
+                          ? '1px solid #D4D4D4'
+                          : '',
+                      }}
                     >
                       {data.map((value, keyIndex) =>
                         value.days.friday.includes(`${daysVal}`) ? (
@@ -157,6 +197,7 @@ export const Schedule = ({ courses, backgroundColorSchedule }: Props) => {
                           'container_schedule_lineTime_caps_mini_courseSat'
                         ]
                       }
+                      style={{ backgroundColor: backgroundColorSchedule }}
                     >
                       {data.map((value, keyIndex) =>
                         value.days.saturday.includes(`${daysVal}`) ? (

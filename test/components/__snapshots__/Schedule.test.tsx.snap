@@ -6,6 +6,11 @@ exports[`Schedule should render Schedule component default 1`] = `
 >
   <div
     className="container_schedule"
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
   >
     <div
       className="container_schedule_top"
@@ -82,9 +87,19 @@ exports[`Schedule should render Schedule component default 1`] = `
     >
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -97,29 +112,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -132,29 +187,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -167,29 +262,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -202,29 +337,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -237,29 +412,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -272,29 +487,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -307,29 +562,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -342,29 +637,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -377,29 +712,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -412,29 +787,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -447,29 +862,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -482,29 +937,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -517,29 +1012,69 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_capsEnd"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -552,21 +1087,51 @@ exports[`Schedule should render Schedule component default 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
@@ -581,6 +1146,11 @@ exports[`Schedule should render Schedule component with data 1`] = `
 >
   <div
     className="container_schedule"
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
   >
     <div
       className="container_schedule_top"
@@ -657,9 +1227,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
     >
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -672,6 +1252,11 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -690,9 +1275,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -711,6 +1306,11 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -729,9 +1329,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           >
             <div
               className="container"
@@ -752,9 +1362,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -767,6 +1387,11 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -785,9 +1410,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -806,20 +1441,45 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -832,29 +1492,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -867,29 +1567,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -902,29 +1642,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -937,29 +1717,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -972,29 +1792,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1007,6 +1867,11 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -1025,9 +1890,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -1046,20 +1921,45 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1072,6 +1972,11 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -1090,9 +1995,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -1111,12 +2026,27 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           >
             <div
               className="container"
@@ -1137,9 +2067,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1152,29 +2092,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1187,29 +2167,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1222,29 +2242,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_caps"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1257,29 +2317,69 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_capsEnd"
+        style={
+          Object {
+            "borderBottom": "",
+          }
+        }
       >
         <div
           className="container_schedule_lineTime_caps_text"
+          style={
+            Object {
+              "borderRight": "",
+            }
+          }
         >
           <h1
             className="container_schedule_lineTime_caps_text_hour"
@@ -1292,9 +2392,19 @@ exports[`Schedule should render Schedule component with data 1`] = `
         >
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           >
             <div
               className="container"
@@ -1313,15 +2423,35 @@ exports[`Schedule should render Schedule component with data 1`] = `
           </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
+            style={
+              Object {
+                "borderRight": "",
+              }
+            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
           />
         </div>
       </div>

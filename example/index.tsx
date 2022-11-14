@@ -32,7 +32,14 @@ const data = [
   },
 ];
 const App = () => {
-  return <Schedule courses={data} />;
+  return (
+    <Schedule
+      courses={data}
+      borderRightSchedule
+      borderBottomSchedule
+      backgroundColorSchedule="white"
+    />
+  );
 };
 
 export default App;
