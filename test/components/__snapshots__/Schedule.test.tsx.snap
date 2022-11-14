@@ -152,11 +152,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -227,11 +223,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -302,11 +294,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -377,11 +365,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -452,11 +436,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -527,11 +507,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -602,11 +578,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -677,11 +649,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -752,11 +720,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -827,11 +791,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -902,11 +862,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -977,11 +933,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1052,21 +1004,13 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_capsEnd"
-        style={
-          Object {
-            "borderBottom": "",
-          }
-        }
+        style={Object {}}
       >
         <div
           className="container_schedule_lineTime_caps_text"
@@ -1127,11 +1071,7 @@ exports[`Schedule should render Schedule component default 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1337,11 +1277,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           >
             <div
               className="container"
@@ -1457,11 +1393,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1532,11 +1464,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1607,11 +1535,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1682,11 +1606,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1757,11 +1677,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1832,11 +1748,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -1937,11 +1849,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -2042,11 +1950,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           >
             <div
               className="container"
@@ -2132,11 +2036,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -2207,11 +2107,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -2282,11 +2178,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
@@ -2357,21 +2249,13 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>
       <div
         className="container_schedule_lineTime_capsEnd"
-        style={
-          Object {
-            "borderBottom": "",
-          }
-        }
+        style={Object {}}
       >
         <div
           className="container_schedule_lineTime_caps_text"
@@ -2447,11 +2331,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           />
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
-            style={
-              Object {
-                "backgroundColor": undefined,
-              }
-            }
+            style={Object {}}
           />
         </div>
       </div>

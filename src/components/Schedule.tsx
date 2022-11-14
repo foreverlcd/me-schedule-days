@@ -5,7 +5,7 @@ import { useSchedule } from '../hooks/useSchedule';
 import { DataProps } from '../interfaces/schedules.interfaces';
 
 import styles from '../styles/schedule/schedule.module.css';
-import { ContainerSchedule } from './ContainerSchedule';
+import { DayContainerSchedule } from './DayContainerSchedule';
 
 export interface Props {
   courses?: DataProps[];
@@ -59,9 +59,15 @@ export const Schedule = ({
                   ? styles['container_schedule_lineTime_capsEnd']
                   : styles['container_schedule_lineTime_caps']
               }
-              style={{
-                borderBottom: borderBottomSchedule ? '1px solid #D4D4D4' : '',
-              }}
+              style={
+                daysVal !== '20:00 - 21:00'
+                  ? {
+                      borderBottom: borderBottomSchedule
+                        ? '1px solid #D4D4D4'
+                        : '',
+                    }
+                  : {}
+              }
             >
               <div
                 className={styles['container_schedule_lineTime_caps_text']}
@@ -80,135 +86,53 @@ export const Schedule = ({
               <div className={styles['container_schedule_lineTime_caps_mini']}>
                 {Object.keys(data[0].days).map((value, keyInd) =>
                   value === 'monday' ? (
-                    <div
+                    <DayContainerSchedule
                       key={keyInd}
-                      className={
-                        styles['container_schedule_lineTime_caps_mini_course']
-                      }
-                      style={{
-                        borderRight: borderRightSchedule
-                          ? '1px solid #D4D4D4'
-                          : '',
-                      }}
-                    >
-                      {data.map((value, keyIndex) =>
-                        value.days.monday.includes(`${daysVal}`) ? (
-                          <ContainerSchedule
-                            key={keyIndex}
-                            title={value.name}
-                            backgroundColor={value.color}
-                          />
-                        ) : null
-                      )}
-                    </div>
+                      borderRightSchedule={borderRightSchedule}
+                      data={data}
+                      daysVal={daysVal}
+                      daysPosition={value}
+                    />
                   ) : value === 'tuesday' ? (
-                    <div
+                    <DayContainerSchedule
                       key={keyInd}
-                      className={
-                        styles['container_schedule_lineTime_caps_mini_course']
-                      }
-                      style={{
-                        borderRight: borderRightSchedule
-                          ? '1px solid #D4D4D4'
-                          : '',
-                      }}
-                    >
-                      {data.map((value, keyIndex) =>
-                        value.days.tuesday.includes(`${daysVal}`) ? (
-                          <ContainerSchedule
-                            key={keyIndex}
-                            title={value.name}
-                            backgroundColor={value.color}
-                          />
-                        ) : null
-                      )}
-                    </div>
+                      borderRightSchedule={borderRightSchedule}
+                      data={data}
+                      daysVal={daysVal}
+                      daysPosition={value}
+                    />
                   ) : value === 'wednesday' ? (
-                    <div
+                    <DayContainerSchedule
                       key={keyInd}
-                      className={
-                        styles['container_schedule_lineTime_caps_mini_course']
-                      }
-                      style={{
-                        borderRight: borderRightSchedule
-                          ? '1px solid #D4D4D4'
-                          : '',
-                      }}
-                    >
-                      {data.map((value, keyIndex) =>
-                        value.days.wednesday.includes(`${daysVal}`) ? (
-                          <ContainerSchedule
-                            key={keyIndex}
-                            title={value.name}
-                            backgroundColor={value.color}
-                          />
-                        ) : null
-                      )}
-                    </div>
+                      borderRightSchedule={borderRightSchedule}
+                      data={data}
+                      daysVal={daysVal}
+                      daysPosition={value}
+                    />
                   ) : value === 'thursday' ? (
-                    <div
+                    <DayContainerSchedule
                       key={keyInd}
-                      className={
-                        styles['container_schedule_lineTime_caps_mini_course']
-                      }
-                      style={{
-                        borderRight: borderRightSchedule
-                          ? '1px solid #D4D4D4'
-                          : '',
-                      }}
-                    >
-                      {data.map((value, keyIndex) =>
-                        value.days.thursday.includes(`${daysVal}`) ? (
-                          <ContainerSchedule
-                            key={keyIndex}
-                            title={value.name}
-                            backgroundColor={value.color}
-                          />
-                        ) : null
-                      )}
-                    </div>
+                      borderRightSchedule={borderRightSchedule}
+                      data={data}
+                      daysVal={daysVal}
+                      daysPosition={value}
+                    />
                   ) : value === 'friday' ? (
-                    <div
+                    <DayContainerSchedule
                       key={keyInd}
-                      className={
-                        styles['container_schedule_lineTime_caps_mini_course']
-                      }
-                      style={{
-                        borderRight: borderRightSchedule
-                          ? '1px solid #D4D4D4'
-                          : '',
-                      }}
-                    >
-                      {data.map((value, keyIndex) =>
-                        value.days.friday.includes(`${daysVal}`) ? (
-                          <ContainerSchedule
-                            key={keyIndex}
-                            title={value.name}
-                            backgroundColor={value.color}
-                          />
-                        ) : null
-                      )}
-                    </div>
+                      borderRightSchedule={borderRightSchedule}
+                      data={data}
+                      daysVal={daysVal}
+                      daysPosition={value}
+                    />
                   ) : value === 'saturday' ? (
-                    <div
+                    <DayContainerSchedule
                       key={keyInd}
-                      className={
-                        styles[
-                          'container_schedule_lineTime_caps_mini_courseSat'
-                        ]
-                      }
-                      style={{ backgroundColor: backgroundColorSchedule }}
-                    >
-                      {data.map((value, keyIndex) =>
-                        value.days.saturday.includes(`${daysVal}`) ? (
-                          <ContainerSchedule
-                            key={keyIndex}
-                            title={value.name}
-                            backgroundColor={value.color}
-                          />
-                        ) : null
-                      )}
-                    </div>
+                      borderRightSchedule={borderRightSchedule}
+                      data={data}
+                      daysVal={daysVal}
+                      daysPosition={value}
+                    />
                   ) : null
                 )}
               </div>

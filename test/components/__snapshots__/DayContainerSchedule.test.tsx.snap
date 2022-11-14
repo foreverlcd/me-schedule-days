@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContainerSchedule should render ContainerSchedule title component 1`] = `
+<div
+  className="container_schedule_lineTime_caps_mini_course"
+  style={
+    Object {
+      "borderRight": "",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "background": "red",
+      }
+    }
+  >
+    <h1
+      className="container_text"
+    >
+      Procesamiento de Lenguaje Natural
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`ContainerSchedule should render ContainerSchedule title component 2`] = `
+<div
+  className="container_schedule_lineTime_caps_mini_course"
+  style={
+    Object {
+      "borderRight": "1px solid #D4D4D4",
+    }
+  }
+>
+  <div
+    className="container"
+    style={
+      Object {
+        "background": "red",
+      }
+    }
+  >
+    <h1
+      className="container_text"
+    >
+      Procesamiento de Lenguaje Natural
+    </h1>
+  </div>
+</div>
+`;
