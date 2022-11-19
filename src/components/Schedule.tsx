@@ -1,6 +1,7 @@
 import React from 'react';
 import { days } from '../data/days';
-import { hours } from '../data/hours';
+import hours from '../data/hours';
+import { convertData } from '../functions/convertData';
 import { useSchedule } from '../hooks/useSchedule';
 import { DataProps } from '../interfaces/schedules.interfaces';
 
@@ -20,7 +21,7 @@ export const Schedule = ({
   borderRightSchedule,
   borderBottomSchedule,
 }: Props) => {
-  const { data } = useSchedule(courses);
+  const { data } = useSchedule(courses && convertData(courses));
 
   return (
     <div className={styles['container']}>
@@ -53,14 +54,14 @@ export const Schedule = ({
         <div className={styles['container_schedule_lineTime']}>
           {hours.map(daysVal => (
             <div
-              key={daysVal}
+              key={daysVal.VisualValue}
               className={
-                daysVal === '20:00 - 21:00'
+                daysVal.VisualValue === '20:00 - 21:00'
                   ? styles['container_schedule_lineTime_capsEnd']
                   : styles['container_schedule_lineTime_caps']
               }
               style={
-                daysVal !== '20:00 - 21:00'
+                daysVal.VisualValue !== '20:00 - 21:00'
                   ? {
                       borderBottom: borderBottomSchedule
                         ? '1px solid #D4D4D4'
@@ -80,7 +81,7 @@ export const Schedule = ({
                     styles['container_schedule_lineTime_caps_text_hour']
                   }
                 >
-                  {daysVal}
+                  {daysVal.VisualValue}
                 </h1>
               </div>
               <div className={styles['container_schedule_lineTime_caps_mini']}>
@@ -90,7 +91,7 @@ export const Schedule = ({
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
                       data={data}
-                      daysVal={daysVal}
+                      daysVal={daysVal.dataValue}
                       daysPosition={value}
                     />
                   ) : value === 'tuesday' ? (
@@ -98,7 +99,7 @@ export const Schedule = ({
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
                       data={data}
-                      daysVal={daysVal}
+                      daysVal={daysVal.dataValue}
                       daysPosition={value}
                     />
                   ) : value === 'wednesday' ? (
@@ -106,7 +107,7 @@ export const Schedule = ({
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
                       data={data}
-                      daysVal={daysVal}
+                      daysVal={daysVal.dataValue}
                       daysPosition={value}
                     />
                   ) : value === 'thursday' ? (
@@ -114,7 +115,7 @@ export const Schedule = ({
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
                       data={data}
-                      daysVal={daysVal}
+                      daysVal={daysVal.dataValue}
                       daysPosition={value}
                     />
                   ) : value === 'friday' ? (
@@ -122,7 +123,7 @@ export const Schedule = ({
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
                       data={data}
-                      daysVal={daysVal}
+                      daysVal={daysVal.dataValue}
                       daysPosition={value}
                     />
                   ) : value === 'saturday' ? (
@@ -130,7 +131,7 @@ export const Schedule = ({
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
                       data={data}
-                      daysVal={daysVal}
+                      daysVal={daysVal.dataValue}
                       daysPosition={value}
                     />
                   ) : null

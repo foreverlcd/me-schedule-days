@@ -18,6 +18,11 @@ interface DaysProps {
   saturday: string[];
 }
 
+export interface PropsHoursValue {
+  VisualValue: string;
+  dataValue: string;
+}
+
 export interface ScheduleHOCProps {
   ({ courses }: ScheduleProps): JSX.Element;
   Container: (Props: ContainerProps) => JSX.Element;

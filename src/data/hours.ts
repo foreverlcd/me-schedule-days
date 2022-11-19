@@ -1,16 +1,18 @@
-export const hours: string[] = [
-  '7:00 - 8:00',
-  '8:00 - 9:00',
-  '9:00 - 10:00',
-  '10:00 - 11:00',
-  '11:00 - 12:00',
-  '12:00 - 13:00',
-  '13:00 - 14:00',
-  '14:00 - 15:00',
-  '15:00 - 16:00',
-  '16:00 - 17:00',
-  '17:00 - 18:00',
-  '18:00 - 19:00',
-  '19:00 - 20:00',
-  '20:00 - 21:00',
-];
+import { PropsHoursValue } from '../interfaces/schedules.interfaces';
+
+const hours: PropsHoursValue[] = [];
+let startTime = 7;
+const endTime = 21;
+const max = endTime - startTime;
+
+for (let index = 0; index < max; index++) {
+  hours.push({
+    VisualValue: `${startTime}:00 - ${startTime + 1}:00`,
+    dataValue: `${('0' + startTime).slice(-2)}-${('0' + (startTime + 1)).slice(
+      -2
+    )}`,
+  });
+  startTime++;
+}
+
+export default hours;
