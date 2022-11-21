@@ -11,9 +11,9 @@ export const convertData = (courses: DataProps[]) => {
         let firstTerm = parseInt(
           arrayReturn[i].days[property][j].substring(0, 2)
         );
-        switch (result) {
-          case 4:
-            arrayReturn[i].days[property].length = 0;
+        for (let l = 2; l < 15; l++) {
+          if (result === l) {
+            arrayReturn[i].days[property].splice(j, 1);
             for (let k = 0; k < result; k++) {
               const element = `${('0' + firstTerm).slice(-2)}-${(
                 '0' +
@@ -22,31 +22,7 @@ export const convertData = (courses: DataProps[]) => {
               ++firstTerm;
               arrayReturn[i].days[property].push(element);
             }
-            break;
-          case 3:
-            arrayReturn[i].days[property].length = 0;
-            for (let k = 0; k < result; k++) {
-              const element = `${('0' + firstTerm).slice(-2)}-${(
-                '0' +
-                (firstTerm + 1)
-              ).slice(-2)}`;
-              ++firstTerm;
-              arrayReturn[i].days[property].push(element);
-            }
-            break;
-          case 2:
-            arrayReturn[i].days[property].length = 0;
-            for (let k = 0; k < result; k++) {
-              const element = `${('0' + firstTerm).slice(-2)}-${(
-                '0' +
-                (firstTerm + 1)
-              ).slice(-2)}`;
-              ++firstTerm;
-              arrayReturn[i].days[property].push(element);
-            }
-            break;
-          default:
-            break;
+          }
         }
       }
     }
