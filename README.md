@@ -18,9 +18,8 @@ Using yarn:
 $ yarn add me-schedule-days
 ```
 
-## Version Compatibility
+## Usability
 
-_Please upgrade to atleast v5.0.0 to avoid security issues mentioned below._
 
 | Parameters                       | Description                                                         |
 | -------------------------------- | ------------------------------------------------------------------- |
