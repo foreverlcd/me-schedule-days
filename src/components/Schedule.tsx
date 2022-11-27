@@ -13,6 +13,7 @@ export interface Props {
   backgroundColorSchedule?: string;
   borderRightSchedule?: boolean;
   borderBottomSchedule?: boolean;
+  onClickId?: (id: string) => void;
 }
 
 export const Schedule = ({
@@ -20,9 +21,10 @@ export const Schedule = ({
   backgroundColorSchedule,
   borderRightSchedule,
   borderBottomSchedule,
+  onClickId,
 }: Props) => {
   const { data } = useSchedule(courses && convertData(courses));
-
+  
   return (
     <div className={styles['container']}>
       <div
@@ -36,7 +38,7 @@ export const Schedule = ({
               Horario
             </h1>
           </div>
-          {days.map(value => (
+          {days.map((value) => (
             <div
               key={value}
               className={
@@ -52,7 +54,7 @@ export const Schedule = ({
           ))}
         </div>
         <div className={styles['container_schedule_lineTime']}>
-          {hours.map(daysVal => (
+          {hours.map((daysVal) => (
             <div
               key={daysVal.VisualValue}
               className={
@@ -93,6 +95,7 @@ export const Schedule = ({
                       data={data}
                       daysVal={daysVal.dataValue}
                       daysPosition={value}
+                      onClickId={onClickId}
                     />
                   ) : value === 'tuesday' ? (
                     <DayContainerSchedule

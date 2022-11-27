@@ -11,6 +11,7 @@ exports[`ContainerSchedule should render ContainerSchedule title component 1`] =
 >
   <div
     className="container"
+    onClick={[Function]}
     style={
       Object {
         "background": "red",
@@ -37,6 +38,7 @@ exports[`ContainerSchedule should render ContainerSchedule title component 2`] =
 >
   <div
     className="container"
+    onClick={[Function]}
     style={
       Object {
         "background": "red",

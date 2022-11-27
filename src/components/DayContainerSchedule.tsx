@@ -8,6 +8,7 @@ export interface Props {
   data: DataProps[];
   daysVal: string;
   daysPosition: string;
+  onClickId?: (id: string) => void;
 }
 
 export const DayContainerSchedule = ({
@@ -15,6 +16,7 @@ export const DayContainerSchedule = ({
   data,
   daysVal,
   daysPosition,
+  onClickId,
 }: Props) => {
   return (
     <div
@@ -37,6 +39,8 @@ export const DayContainerSchedule = ({
             key={keyIndex}
             title={value.name}
             backgroundColor={value.color}
+            idValue={value._id}
+            onClickId={onClickId}
           />
         ) : null
       )}

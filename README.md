@@ -28,6 +28,7 @@ _Please upgrade to atleast v5.0.0 to avoid security issues mentioned below._
 | borderRightSchedule (boolean)    | Creates the vertical separation of the schedule.                    |
 | borderBottomSchedule (boolean)   | Creates the horizontal separation of the schedule.                  |
 | backgroundColorSchedule (string) | Adds the background color of the entire schedule.                   |
+| onClickId (event onClick)        | Set id of course when you click                                     |
 
 ## Example
 
@@ -64,13 +65,18 @@ const data = [
     color: 'black',
   },
 ]
+
 const App = () => {
+  const getIdCourse = (id: string) => {
+    console.log(id);
+  };
   return (
     <Schedule
       courses={data}
       borderRightSchedule
       borderBottomSchedule
       backgroundColorSchedule="white"
+      onClickId={getIdCourse}
     />
   );
 };

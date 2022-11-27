@@ -5,7 +5,7 @@ import { Schedule } from '../.';
 
 const data = [
   {
-    id: '01',
+    _id: '01',
     name: 'Procesamiento de Lenguaje Natural',
     days: {
       monday: ['07-11', '09-10'],
@@ -18,7 +18,7 @@ const data = [
     color: 'red',
   },
   {
-    id: '02',
+    _id: '02',
     name: 'Programación II',
     days: {
       monday: ['14-16'],
@@ -31,13 +31,18 @@ const data = [
     color: 'black',
   },
 ];
+
 const App = () => {
+  const getIdCourse = (id: string) => {
+    console.log(id);
+  };
   return (
     <Schedule
       courses={data}
       borderRightSchedule
       borderBottomSchedule
       backgroundColorSchedule="white"
+      onClickId={getIdCourse}
     />
   );
 };

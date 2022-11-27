@@ -143,14 +143,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -181,14 +173,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -285,14 +269,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -323,14 +299,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -427,14 +395,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -465,14 +425,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -569,14 +521,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -607,14 +551,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -711,14 +647,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -749,14 +677,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -853,14 +773,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -891,14 +803,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -995,14 +899,6 @@ exports[`Schedule should render Schedule component default 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -1029,14 +925,6 @@ exports[`Schedule should render Schedule component default 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1197,22 +1085,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "red",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Procesamiento de Lenguaje Natural
-              </h1>
-            </div>
-          </div>
+          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1228,45 +1101,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "red",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Procesamiento de Lenguaje Natural
-              </h1>
-            </div>
-          </div>
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "red",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Procesamiento de Lenguaje Natural
-              </h1>
-            </div>
-          </div>
+          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1278,22 +1113,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "red",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Procesamiento de Lenguaje Natural
-              </h1>
-            </div>
-          </div>
+          />
         </div>
       </div>
       <div
@@ -1328,29 +1148,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "red",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Procesamiento de Lenguaje Natural
-              </h1>
-            </div>
-          </div>
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
@@ -1359,22 +1156,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "red",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Procesamiento de Lenguaje Natural
-              </h1>
-            </div>
-          </div>
+          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1422,14 +1204,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1526,14 +1300,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -1564,14 +1330,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1668,14 +1426,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -1706,14 +1456,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1784,29 +1526,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "black",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Programación II
-              </h1>
-            </div>
-          </div>
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
@@ -1815,22 +1534,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "black",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Programación II
-              </h1>
-            </div>
-          </div>
+          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1885,29 +1589,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "black",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Programación II
-              </h1>
-            </div>
-          </div>
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
           />
           <div
             className="container_schedule_lineTime_caps_mini_course"
@@ -1916,22 +1597,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
                 "borderRight": "",
               }
             }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "black",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Programación II
-              </h1>
-            </div>
-          </div>
+          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -1951,22 +1617,7 @@ exports[`Schedule should render Schedule component with data 1`] = `
           <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "black",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Programación II
-              </h1>
-            </div>
-          </div>
+          />
         </div>
       </div>
       <div
@@ -1994,14 +1645,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -2098,14 +1741,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -2136,14 +1771,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
         <div
           className="container_schedule_lineTime_caps_mini"
         >
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
@@ -2240,14 +1867,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
             }
           />
           <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          />
-          <div
             className="container_schedule_lineTime_caps_mini_courseSat"
             style={Object {}}
           />
@@ -2282,29 +1901,6 @@ exports[`Schedule should render Schedule component with data 1`] = `
               }
             }
           />
-          <div
-            className="container_schedule_lineTime_caps_mini_course"
-            style={
-              Object {
-                "borderRight": "",
-              }
-            }
-          >
-            <div
-              className="container"
-              style={
-                Object {
-                  "background": "black",
-                }
-              }
-            >
-              <h1
-                className="container_text"
-              >
-                Programación II
-              </h1>
-            </div>
-          </div>
           <div
             className="container_schedule_lineTime_caps_mini_course"
             style={
