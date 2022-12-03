@@ -5,7 +5,7 @@ import { convertData } from '../functions/convertData';
 import { useSchedule } from '../hooks/useSchedule';
 import { DataProps } from '../interfaces/schedules.interfaces';
 
-import '../schedule/schedule.css';
+import '../styles/schedule/schedule.css';
 import { DayContainerSchedule } from './DayContainerSchedule';
 
 export interface Props {
