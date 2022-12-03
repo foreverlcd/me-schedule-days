@@ -17,10 +17,10 @@ export const ContainerSchedule = ({
   return (
     <div
       onClick={() => onClickId(idValue)}
-      className={styles.container}
+      className={styles['container']}
       style={{ background: backgroundColor }}
     >
-      <h1 className={styles.container_text}>{title}</h1>
+      <h1 className={styles['container_text']}>{title}</h1>
     </div>
   );
 };
