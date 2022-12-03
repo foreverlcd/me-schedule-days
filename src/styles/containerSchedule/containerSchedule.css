@@ -1,4 +1,4 @@
-.container {
+.containerSchedule {
   width: 135px;
   height: 37px;
   background: #FF8B8B;
@@ -7,7 +7,7 @@
   margin-top: 5px;
   justify-content: center;
 }
-.container_text {
+.containerSchedule_text {
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;
   font-style: normal;
