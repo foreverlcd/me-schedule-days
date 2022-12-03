@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/containerSchedule/containerSchedule.module.css';
+import '../styles/containerSchedule/containerSchedule.css';
 
 export interface Props {
   title?: string;
@@ -17,10 +17,10 @@ export const ContainerSchedule = ({
   return (
     <div
       onClick={() => onClickId(idValue)}
-      className={styles['container']}
+      className="container"
       style={{ background: backgroundColor }}
     >
-      <h1 className={styles['container_text']}>{title}</h1>
+      <h1 className="container_text">{title}</h1>
     </div>
   );
 };

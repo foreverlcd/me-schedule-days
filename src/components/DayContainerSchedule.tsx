@@ -1,6 +1,6 @@
 import React from 'react';
 import { DataProps } from '../interfaces/schedules.interfaces';
-import styles from '../styles/schedule/schedule.module.css';
+import '../styles/schedule/schedule.css';
 import { ContainerSchedule } from './ContainerSchedule';
 
 export interface Props {
@@ -22,8 +22,8 @@ export const DayContainerSchedule = ({
     <div
       className={
         daysPosition === 'saturday'
-          ? styles['container_schedule_lineTime_caps_mini_courseSat']
-          : styles['container_schedule_lineTime_caps_mini_course']
+          ? 'container_schedule_lineTime_caps_mini_courseSat'
+          : 'container_schedule_lineTime_caps_mini_course'
       }
       style={
         daysPosition !== 'saturday'
