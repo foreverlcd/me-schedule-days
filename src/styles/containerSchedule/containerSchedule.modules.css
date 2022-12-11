@@ -7,6 +7,9 @@
   margin-top: 5px;
   justify-content: center;
 }
+.containerSchedule:hover {
+  cursor: pointer;
+}
 .containerSchedule_text {
   font-family: "Open Sans", sans-serif;
   color: #FFFFFF;

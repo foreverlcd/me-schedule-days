@@ -18,6 +18,10 @@ Using yarn:
 $ yarn add me-schedule-days
 ```
 
+## Visual
+
+![image](https://user-images.githubusercontent.com/85658986/206887508-457c2b5d-52a8-4048-ada7-3150e19bdb39.png)
+
 ## Usability
 
 
