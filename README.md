@@ -86,3 +86,7 @@ const App = () => {
 
 export default App;
 ```
+
+## Remember
+
+Delete `App.css` when your create a new project with React command.

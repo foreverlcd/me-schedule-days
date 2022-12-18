@@ -2,7 +2,7 @@
 
 exports[`ContainerSchedule should render ContainerSchedule color and title component 1`] = `
 <div
-  className="container"
+  className="containerSchedule"
   onClick={[Function]}
   style={
     Object {
@@ -11,7 +11,7 @@ exports[`ContainerSchedule should render ContainerSchedule color and title compo
   }
 >
   <h1
-    className="container_text"
+    className="containerSchedule_text"
   >
     ContainerSchedule Title
   </h1>
@@ -20,7 +20,7 @@ exports[`ContainerSchedule should render ContainerSchedule color and title compo
 
 exports[`ContainerSchedule should render ContainerSchedule color component 1`] = `
 <div
-  className="container"
+  className="containerSchedule"
   onClick={[Function]}
   style={
     Object {
@@ -29,7 +29,7 @@ exports[`ContainerSchedule should render ContainerSchedule color component 1`] =
   }
 >
   <h1
-    className="container_text"
+    className="containerSchedule_text"
   >
     Programación I
   </h1>
@@ -38,7 +38,7 @@ exports[`ContainerSchedule should render ContainerSchedule color component 1`] =
 
 exports[`ContainerSchedule should render ContainerSchedule title component 1`] = `
 <div
-  className="container"
+  className="containerSchedule"
   onClick={[Function]}
   style={
     Object {
@@ -47,7 +47,7 @@ exports[`ContainerSchedule should render ContainerSchedule title component 1`] =
   }
 >
   <h1
-    className="container_text"
+    className="containerSchedule_text"
   >
     ContainerSchedule Title
   </h1>

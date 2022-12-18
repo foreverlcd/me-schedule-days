@@ -28,13 +28,15 @@ export const Schedule = ({
   return (
     <div>
       <div
-        className={styles["container_schedule"]}
+        className={styles['container_schedule']}
         style={{ backgroundColor: backgroundColorSchedule }}
       >
-        <div className={styles["container_schedule_top"]}></div>
-        <div className={styles["container_schedule_header"]}>
-          <div className={styles["container_schedule_header_horario"]}>
-            <h1 className={styles["container_schedule_header_horario_text"]}>Horario</h1>
+        <div className={styles['container_schedule_top']}></div>
+        <div className={styles['container_schedule_header']}>
+          <div className={styles['container_schedule_header_horario']}>
+            <h1 className={styles['container_schedule_header_horario_text']}>
+              Horario
+            </h1>
           </div>
           {days.map(value => (
             <div
@@ -45,11 +47,13 @@ export const Schedule = ({
                   : styles['container_schedule_header_caps']
               }
             >
-              <h1 className={styles["container_schedule_header_caps_text"]}>{value}</h1>
+              <h1 className={styles['container_schedule_header_caps_text']}>
+                {value}
+              </h1>
             </div>
           ))}
         </div>
-        <div className={styles["container_schedule_lineTime"]}>
+        <div className={styles['container_schedule_lineTime']}>
           {hours.map(daysVal => (
             <div
               key={daysVal.VisualValue}
@@ -69,63 +73,22 @@ export const Schedule = ({
               }
             >
               <div
-                className={styles["container_schedule_lineTime_caps_text"]}
+                className={styles['container_schedule_lineTime_caps_text']}
                 style={{
                   borderRight: borderRightSchedule ? '1px solid #D4D4D4' : '',
                 }}
               >
-                <h1 className={styles["container_schedule_lineTime_caps_text_hour"]}>
+                <h1
+                  className={
+                    styles['container_schedule_lineTime_caps_text_hour']
+                  }
+                >
                   {daysVal.VisualValue}
                 </h1>
               </div>
-              <div className={styles["container_schedule_lineTime_caps_mini"]}>
+              <div className={styles['container_schedule_lineTime_caps_mini']}>
                 {Object.keys(data[0].days).map((value, keyInd) =>
-                  value === 'monday' ? (
-                    <DayContainerSchedule
-                      key={keyInd}
-                      borderRightSchedule={borderRightSchedule}
-                      data={data}
-                      daysVal={daysVal.dataValue}
-                      daysPosition={value}
-                      onClickId={onClickId}
-                    />
-                  ) : value === 'tuesday' ? (
-                    <DayContainerSchedule
-                      key={keyInd}
-                      borderRightSchedule={borderRightSchedule}
-                      data={data}
-                      daysVal={daysVal.dataValue}
-                      daysPosition={value}
-                      onClickId={onClickId}
-                    />
-                  ) : value === 'wednesday' ? (
-                    <DayContainerSchedule
-                      key={keyInd}
-                      borderRightSchedule={borderRightSchedule}
-                      data={data}
-                      daysVal={daysVal.dataValue}
-                      daysPosition={value}
-                      onClickId={onClickId}
-                    />
-                  ) : value === 'thursday' ? (
-                    <DayContainerSchedule
-                      key={keyInd}
-                      borderRightSchedule={borderRightSchedule}
-                      data={data}
-                      daysVal={daysVal.dataValue}
-                      daysPosition={value}
-                      onClickId={onClickId}
-                    />
-                  ) : value === 'friday' ? (
-                    <DayContainerSchedule
-                      key={keyInd}
-                      borderRightSchedule={borderRightSchedule}
-                      data={data}
-                      daysVal={daysVal.dataValue}
-                      daysPosition={value}
-                      onClickId={onClickId}
-                    />
-                  ) : value === 'saturday' ? (
+                  value ? (
                     <DayContainerSchedule
                       key={keyInd}
                       borderRightSchedule={borderRightSchedule}
