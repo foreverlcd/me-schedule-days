@@ -2,7 +2,7 @@ import { PropsHoursValue } from '../interfaces/schedules.interfaces';
 
 const hours: PropsHoursValue[] = [];
 let startTime = 7;
-const endTime = 21;
+const endTime = 24;
 const max = endTime - startTime;
 
 for (let index = 0; index < max; index++) {

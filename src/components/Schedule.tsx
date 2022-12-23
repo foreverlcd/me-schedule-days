@@ -58,12 +58,12 @@ export const Schedule = ({
             <div
               key={daysVal.VisualValue}
               className={
-                daysVal.VisualValue === '20:00 - 21:00'
+                daysVal.VisualValue === '23:00 - 24:00'
                   ? styles['container_schedule_lineTime_capsEnd']
                   : styles['container_schedule_lineTime_caps']
               }
               style={
-                daysVal.VisualValue !== '20:00 - 21:00'
+                daysVal.VisualValue !== '23:00 - 24:00'
                   ? {
                       borderBottom: borderBottomSchedule
                         ? '1px solid #D4D4D4'
