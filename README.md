@@ -1,6 +1,6 @@
 # me-schedule-days
 
-A library to help you form the schedule with the days and times of a week.
+A library to help you form the schedule with the days and times of a week, it has a maximum of 24 hours.
 
 # Installing
 
