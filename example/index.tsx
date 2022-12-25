@@ -8,7 +8,7 @@ const data = [
     _id: '01',
     name: 'Procesamiento de Lenguaje Natural',
     days: {
-      monday: ['07-11', '09-10'],
+      monday: ['07-11'],
       tuesday: [],
       wednesday: ['07-08', '08-09'],
       thursday: ['07-09'],
